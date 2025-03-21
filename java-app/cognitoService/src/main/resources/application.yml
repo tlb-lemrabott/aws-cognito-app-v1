@@ -1,0 +1,19 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            client-id: 46fj8ebvp0o7h5791hp19voceb
+            client-secret: 1kke5fcev0hoih5j4nimnl3t0fjhkvtgkgqpacpfmmmfhk6quo3l
+            client-authentication-method: client_secret_basic
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://localhost:8080/login/oauth2/code/cognito"
+            scope:
+              - openid
+              - email
+              - phone
+        provider:
+          cognito:
+            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_g7d8aSdIu
+            user-name-attribute: username
