@@ -19,7 +19,7 @@ This project demonstrates a complete user authentication workflow using Amazon C
 * **Error Handling: Incorrect Password**
   When an incorrect password is entered for a valid username, the interface displays an error message informing the user.
 
-  ![Incorrect Password](<Screenshot 2025-05-23 at 9.18.11 AM.png>)
+  ![Incorrect Password](<demo/Screenshot 2025-05-23 at 9.18.11 AM.png>)
 
 * **Force Password Change**
   If Cognito requires the user to change their password (e.g., after an admin reset or first login), the user is redirected to a password change form after entering valid credentials.
