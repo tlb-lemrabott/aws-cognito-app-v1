@@ -9,27 +9,27 @@ This project demonstrates a complete user authentication workflow using Amazon C
 * **Login Page**
   Users are prompted to enter their username and password to log in. The login form is designed for simplicity and clarity.
 
-  ![Login Interface](<demo/Screenshot 2025-05-23 at 8.44.10 AM.png>)
+  ![Login Interface](<ui/src/static/Screenshot 2025-05-23 at 8.44.10 AM.png>)
 
 * **Error Handling: User Does Not Exist**
   If a user enters a username that is not registered in the Cognito User Pool, an appropriate error message is shown.
 
-  ![User Does Not Exist](<demo/Screenshot 2025-05-23 at 9.35.40 AM.png>)
+  ![User Does Not Exist](<ui/src/static/Screenshot 2025-05-23 at 9.35.40 AM.png>)
 
 * **Error Handling: Incorrect Password**
   When an incorrect password is entered for a valid username, the interface displays an error message informing the user.
 
-  ![Incorrect Password](<demo/Screenshot 2025-05-23 at 9.18.11 AM.png>)
+  ![Incorrect Password](<ui/src/static/Screenshot 2025-05-23 at 9.18.11 AM.png>)
 
 * **Force Password Change**
   If Cognito requires the user to change their password (e.g., after an admin reset or first login), the user is redirected to a password change form after entering valid credentials.
 
-  ![Password Change Interface](<demo/Screenshot 2025-05-23 at 9.39.16 AM.png>)
+  ![Password Change Interface](<ui/src/static/Screenshot 2025-05-23 at 9.39.16 AM.png>)
 
 * **Successful Login & Home Page Access**
   Upon successful login (and password change, if required), the user is redirected to the home page, where authenticated content is accessible.
 
-  ![Home Page](<demo/Screenshot 2025-05-23 at 9.51.42 AM.png>)
+  ![Home Page](<ui/src/static/Screenshot 2025-05-23 at 9.51.42 AM.png>)
 
 ### 🧩 Technologies Used
 
