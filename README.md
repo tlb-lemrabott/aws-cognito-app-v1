@@ -1,6 +1,9 @@
 ## 🔐 Amazon Cognito Authentication Interface
 
-This project demonstrates a complete user authentication workflow using **Amazon Cognito**, providing a user-friendly interface for login, error handling, password change enforcement, and home page access post-login.
+This project demonstrates a complete user authentication workflow using Amazon Cognito, providing a user-friendly interface for login, error handling, password change enforcement, and home page access post-login.
+
+🛡️ Authentication Approach Used:
+This implementation follows the Backend-Managed Authentication model. The front-end sends login requests to a backend server, which securely communicates with AWS Cognito to handle authentication, token management, and session control.
 
 ### Features Overview
 
@@ -31,9 +34,9 @@ This project demonstrates a complete user authentication workflow using **Amazon
 
 ### 🧩 Technologies Used
 
-* **Frontend:** React / Angular / Vue (Update as per your stack)
-* **Authentication:** AWS Cognito Hosted UI or SDK integration
-* **Backend (optional):** Java Spring Boot / Node.js / Python Flask
+* **Frontend:** Reactjs, Conginto UI
+* **Authentication:** AWS Cognito SDK integration
+* **Backend (optional):** Java, Spring Boot
 * **UI/UX:** Responsive and error-friendly design for better usability
 
 ### 🔧 How It Works
@@ -50,20 +53,18 @@ This project demonstrates a complete user authentication workflow using **Amazon
    * Access token is used to navigate to secure areas of the app (e.g., home page).
 
 
-### 📸 Demo
-1. Login Interface
-A simple and user-friendly login screen where users can enter their credentials.
+### 📖 Further Reading
+To learn more about the different ways to integrate AWS Cognito authentication into your projects, check out this detailed blog post:
 
-2. Error: User Does Not Exist
-Displayed when the entered username is not found in the Cognito user pool.
+Three Approaches to Integrate AWS Cognito Authentication in Your Project
+This article explores:
 
-3. Error: Incorrect Password
-Shown when the password entered for an existing user is incorrect.
+🔹 Direct UI Integration with AWS Cognito API using front-end SDKs like AWS Amplify
 
-4. Force Password Change Interface
-Appears when Cognito requires the user to set a new password, typically after a temporary password or admin reset.
+🔹 Backend-Managed Authentication, where your backend handles user verification and token management
 
-5. Home Page After Successful Login
-Displayed once the user has successfully logged in and passed any password update requirements.
+🔹 Cognito Hosted UI, a quick, fully managed solution using AWS’s built-in login interface
+
+Each method is explained with its pros, cons, and best use cases, helping you choose the right fit for your app’s architecture and security needs.
 
 ---
