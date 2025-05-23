@@ -34,7 +34,7 @@ This implementation follows the Backend-Managed Authentication model. The front-
 
 ### 🧩 Technologies Used
 
-* **Frontend:** Reactjs, Conginto UI
+* **Frontend:** Reactjs
 * **Authentication:** AWS Cognito SDK integration
 * **Backend (optional):** Java, Spring Boot
 * **UI/UX:** Responsive and error-friendly design for better usability
@@ -59,12 +59,11 @@ To learn more about the different ways to integrate AWS Cognito authentication i
 Three Approaches to Integrate AWS Cognito Authentication in Your Project
 This article explores:
 
-🔹 Direct UI Integration with AWS Cognito API using front-end SDKs like AWS Amplify
-
+* **Direct UI Integration with AWS Cognito API using front-end SDKs like AWS Amplify**
 🔹 Backend-Managed Authentication, where your backend handles user verification and token management
-
 🔹 Cognito Hosted UI, a quick, fully managed solution using AWS’s built-in login interface
 
 Each method is explained with its pros, cons, and best use cases, helping you choose the right fit for your app’s architecture and security needs.
 
+## 👨‍💻Enjoy
 ---
