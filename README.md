@@ -60,9 +60,9 @@ To learn more about the different ways to integrate AWS Cognito authentication i
 [**Three Approaches to Integrate AWS Cognito Authentication in Your Project**](https://lemrabotttoulba.com/blogs/3873874/)
 
 This article explores:
-* **Direct UI Integration with AWS Cognito API** using front-end SDKs like AWS Amplify
-* **Backend-Managed Authentication,** where your backend handles user verification and token management
-* **Cognito Hosted UI** a quick, fully managed solution using AWS’s built-in login interface
+* **Direct UI Integration with AWS Cognito API** _using front-end SDKs like AWS Amplify_
+* **Backend-Managed Authentication,** _where your backend handles user verification and token management_
+* **Cognito Hosted UI** _a quick, fully managed solution using AWS’s built-in login interface_
 
 Each method is explained with its pros, cons, and best use cases, helping you choose the right fit for your app’s architecture and security needs.
 
