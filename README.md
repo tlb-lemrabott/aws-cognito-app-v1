@@ -1,8 +1,7 @@
 ## 🔐 Amazon Cognito Authentication Interface
 
 This project demonstrates a complete user authentication workflow using Amazon Cognito, providing a user-friendly interface for login, error handling, password change enforcement, and home page access post-login.
-
-🛡️ Authentication Approach Used:
+ # 🛡️ Authentication Approach Used:
 This implementation follows the Backend-Managed Authentication model. The front-end sends login requests to a backend server, which securely communicates with AWS Cognito to handle authentication, token management, and session control.
 
 ### Features Overview
