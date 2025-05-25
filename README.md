@@ -56,7 +56,7 @@ This project demonstrates a complete user authentication workflow using Amazon C
 To learn more about the different ways to integrate AWS Cognito authentication into your projects, check out this detailed blog post:
 
 
-[**Three Approaches to Integrate AWS Cognito Authentication in Your Project**](https://lemrabotttoulba.com/blogs/cognito-auth)
+[**Three Approaches to Integrate AWS Cognito Authentication in Your Application**](https://lemrabotttoulba.com/blogs/cognito-auth)
 
 This article explores:
 * **Direct UI Integration with AWS Cognito API** _using front-end SDKs like AWS Amplify_
