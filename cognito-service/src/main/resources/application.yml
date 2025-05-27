@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           cognito:
-            client-id: REMOVED
-            client-secret: REMOVED
+            client-id: {secret.cognito_client_id}
+            client-secret: {secret.cognito_client_secret}
             client-authentication-method: client_secret_basic
             authorization-grant-type: authorization_code
             redirect-uri: "http://localhost:8080/login/oauth2/code/cognito"
@@ -15,5 +15,5 @@ spring:
               - phone
         provider:
           cognito:
-            issuerUri: REMOVED
+            issuerUri: {secret.cognito_issued_url}
             user-name-attribute: username
